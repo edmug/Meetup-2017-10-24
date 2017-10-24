@@ -1,0 +1,35 @@
+Life of a config file
+
+1) What are common settings in a config file:
+  - Database connection string
+  - API key
+  - File/URL paths
+  - Logging
+  - ???
+  
+2) Why do you put settings a config file versus a database?
+
+3) How do you deal with config files as they move from development to production?
+  - Automated build takes care of it
+  - Scripts
+  - Multiple files for each environment
+  - Manually
+  - ???
+  
+4) Development
+  - Setup for new developers?
+  - Config settings that are different per developer?
+  - Where do you store DEV password/keys?
+  - ???
+
+5) Test
+  - What changes between development and test?
+  - ???
+
+6) Staging
+  - How close of copy is it to production?  Do you still leave some test/debug flags on?
+  - ???
+
+7) Production
+  - Where do you store passwords, keys?
+  - ???
